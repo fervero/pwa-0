@@ -9,6 +9,7 @@ function App() {
 
   return (
     <>
+      <div className="background"></div>
       <h1>Hello, World!</h1>
       <button onClick={onClick}>Ping</button>
     </>
