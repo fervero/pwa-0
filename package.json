@@ -1,0 +1,13 @@
+{
+  "name": "hello-pwa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "cd hello-back && npm run backend:local",
+    "build": "cd hello-front && npm run build",
+    "start": "npm run build && npm run serve"
+  },
+  "author": "",
+  "license": "ISC"
+}
