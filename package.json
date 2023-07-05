@@ -4,10 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "cd hello-back && npm run backend:local",
-    "build": "cd hello-front && npm run build",
+    "serve": "cd hello-back && npm ci && npm run backend:local",
+    "build": "cd hello-front && npm ci && npm run build",
     "start": "npm run build && npm run serve"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {
+    "node": "18.16.0",
+    "npm": "9.6.7"
+  }
 }
