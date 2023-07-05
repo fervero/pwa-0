@@ -5,7 +5,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-image: url("src/assets/kitten.jpg");
+  background-image: url("/kitten.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
