@@ -17,10 +17,11 @@ export default defineConfig({
         enabled: true,
       },
       manifest: {
-        name: "My Awesome App",
-        short_name: "HelloWorld",
+        name: "Ping Pong PWA",
+        short_name: "PingPong",
         description: "Kinda minimal PWA",
         theme_color: "#ffffff",
+        start_url: "/index.html",
         icons: [
           {
             src: "pwa-192x192.png",
