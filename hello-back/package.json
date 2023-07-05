@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "backend:local": "cross-env PORT=5001 npm run start"
+    "backend:local": "cross-env PORT=5001 npm run start",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
