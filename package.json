@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "cd hello-back && npm ci && npm run backend:local",
-    "build": "cd hello-front && npm ci && npm run build",
+    "serve": "cd hello-back && npm install && npm run backend:local",
+    "build": "cd hello-front && npm install && npm run build",
     "start": "npm run build && npm run serve"
   },
   "author": "",
