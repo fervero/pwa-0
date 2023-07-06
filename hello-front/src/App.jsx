@@ -2,9 +2,13 @@ import "./App.css";
 
 function App() {
   const onClick = async () => {
-    const response = await fetch(`/ping/${new Date().valueOf()}`);
-    const text = await response.text();
-    alert(text);
+    try {
+      const response = await fetch(`/ping/${new Date().valueOf()}`);
+      const text = await response.text();
+      alert(text);
+    } catch (e) {
+      alert("NET!");
+    }
   };
 
   return (
