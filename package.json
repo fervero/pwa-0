@@ -4,9 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "cd hello-back && npm install && npm run start",
-    "build": "cd hello-front && npm install && npm run build",
-    "start": "npm run build && npm run serve"
+    "install:front": "cd hello-front && npm install",
+    "install:back": "cd hello-back && npm install",
+    "install": "npm run install:front && npm run install:back",
+    "build": "cd hello-front && npm run build",
+    "install-n-build": "npm run install && npm run build",
+    "serve": "cd hello-back && npm run start",
+    "start": "npm run install && npm run build && npm run serve"
   },
   "author": "",
   "license": "ISC",
